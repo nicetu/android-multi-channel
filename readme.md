@@ -58,7 +58,8 @@ cond5(yes)->cond6
 cond5(no)->cond 
 cond6(yes)->e
 cond6(no)->cond 
-```flow
+```
+
     1.解压已签名的apk；
     2.删除签名信息:META-INF/CERT.RSA,META-INF/CERT.SF
     3.写入渠道信息；
